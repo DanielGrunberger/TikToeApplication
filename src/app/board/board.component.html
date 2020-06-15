@@ -6,8 +6,9 @@ Player {{winner}} won the game !!! Mazel tov !
 </h2>
 
 <main>
+    <!-- A loop for the squares array on the board component -->   
  <app-square
-     *ngFor="let val of squares;let i = index;"
+     *ngFor= "let val of squares;let i = index;"  
      [value]= "val"
      (click) = "makeMove(i)">
  </app-square>
