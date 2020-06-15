@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "TikTok"
+    }
+  },
+  "defaultProject": "TikTok",
+  "cli": {
+    "analytics": "79792c6f-d43a-4dc7-b12b-313bb7660f29"
+  }
 }
